@@ -28,9 +28,9 @@ fetch(localApi, {
    redirect: 'follow', // manual, *follow, error
    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
    body: JSON.stringify({
-      "firstName": "Indigo",
-      "lastName": "Prenzler",
-      "email": "OhDear@luv2code.com"
+      "firstName": "Leon",
+      "lastName": "Marcin-Gruzmann",
+      "email": "BallySpiffing@luv2code.com"
    }) // body data type must match "Content-Type" header
 })
    .then(response => {
