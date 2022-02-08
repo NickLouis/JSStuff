@@ -34,7 +34,7 @@ fetch(localApi, {
    }) // body data type must match "Content-Type" header
 })
    .then(response => {
-      console.log(response)
+      console.log(response.json())
    })
    .catch(err => {
       console.log(err)
